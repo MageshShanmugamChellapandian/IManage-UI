@@ -1,0 +1,167 @@
+.page-operation-block {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+    z-index:9999;
+    top: 0;
+    right: 0;
+    background-color:rgba(0,0,0,0.4);
+  }
+
+  .page-spinner{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: -25px;
+    background-size: 100%;
+  }
+  .alert-top {
+    position: fixed;
+    top: 5%;
+    right:35%;
+    width: 30%;
+    z-index:10;
+}
+.alerttextalign{
+  text-align: center;
+}
+/* Confirmation Modal Popup CSS properties */
+.confirmation-modal-popup {
+  height: auto;
+  position: relative;
+  padding:30px;
+  margin-bottom: 30px;
+}
+
+.confirmation-modal-popup .close-icon {
+  margin:0;
+  float: right;
+  right: 0;
+  position: relative;
+}
+
+.confirmation-modal-popup .warning-icon {
+  position: relative;
+  border: 10px solid white;
+  border-radius: 50px;
+  height: 70px;
+  width: 70px;
+  box-shadow: 0px 10px 36px #183A5024;
+  /* -ms-box-shadow: 0px 10px 36px #183A5024;
+  -moz-box-shadow: 0px 10px 36px #183A5024; */
+}
+
+.confirmation-modal-body {
+  top: 30px;
+  left: 20px;
+  width: calc(100% - 40px);
+  height: auto;
+  position: relative;
+}
+
+.flex-container {
+  display: flex;
+  padding: 10px;
+}
+
+.popup-heading {
+  text-align: left;
+  letter-spacing: 0.3px;
+  color: #002858;
+  vertical-align: middle;
+}
+
+.popup-body-section {
+  margin-left: 30px;
+  width: 100%;
+}
+
+.popup-message {
+  text-align: left;
+  letter-spacing: 0.18px;
+  color: #92A2C1;
+}
+
+.confirmation-modal-popup hr {
+  border: 1px solid #92A2C1;
+  opacity: 0.36;
+}
+
+.confirmation-modal-popup button {
+  float: right;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+/* Confirmation Modal Popup CSS properties */
+/* Information Modal Popup CSS properties */
+.information-modal-popup {
+  height: auto;
+  position: relative;
+  padding:30px;
+  margin-bottom: 30px;
+}
+
+.information-modal-popup .close-icon {
+  margin:0;
+  float: right;
+  right: 0;
+  position: relative;
+}
+
+.information-modal-popup .warning-icon {
+  position: relative;
+  border: 10px solid white;
+  border-radius: 50px;
+  height: 70px;
+  width: 70px;
+  box-shadow: 0px 10px 36px #183A5024;
+  /* -ms-box-shadow: 0px 10px 36px #183A5024;
+  -moz-box-shadow: 0px 10px 36px #183A5024; */
+}
+
+.information-modal-body {
+  top: 30px;
+  left: 20px;
+  width: calc(100% - 40px);
+  height: auto;
+  position: relative;
+}
+
+.information-flex-container {
+  display: flex;
+  padding: 10px;
+}
+
+.information-popup-heading {
+  text-align: left;
+  letter-spacing: 0.3px;
+  color: #002858;
+  vertical-align: middle;
+}
+
+.information-popup-body-section {
+  margin-left: 30px;
+  width: 100%;
+}
+
+.information-popup-message {
+  text-align: left;
+  letter-spacing: 0.18px;
+  color: #92A2C1;
+}
+
+.information-modal-popup hr {
+  border: 1px solid #92A2C1;
+  opacity: 0.36;
+}
+
+.information-modal-popup button {
+  float: right;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+/* Information Modal Popup CSS properties */

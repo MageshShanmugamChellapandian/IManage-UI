@@ -1,0 +1,49 @@
+.productlogo {
+    /* float: right; */
+    display: inline-block;
+    width: 330px;
+    height: 65px;
+    margin-top: 20px;
+    background-image: url('../../images/imanagelogo.png');
+    background-size: 225px 65px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.appChild {
+    height: 100%;
+}
+
+.useravtar {
+    /* float: right; */
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    margin-top: 10px;
+    background-image: transparent url('../../images/useravtar.png') no-repeat;
+    margin-right: 10px;
+    border-radius: 1px;
+}
+
+.headertext {
+    font-size: 18px;
+}
+
+.containeroverload {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    max-width: 100% !important;
+}
+
+.navbarposition {
+    position: fixed!important;
+    width: 100%;
+}
+
+.navbar {
+    z-index: 7;
+}
+
+.navbar {
+    height: 80px;
+}

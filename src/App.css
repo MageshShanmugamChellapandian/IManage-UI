@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+  position: relative;
+  margin: 0px;
+  min-width: 100%;
+  padding: 0px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.contentmenu{
+  position: fixed;
+  display:inline-block;
+  top: 77px;
+  left: 0;
+  width: 7%;
+  background-color: white;
+  height: 100%;
+  margin-top: 0px;
+  font-size: 13px;
+}
+.appChild{
+    height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+.content{
+  /* height: 100%; */
+  width: 88%;
+  float: right;
+  margin-top: 77px;
+}
+.projectcontentmenu {
+  width: 4% !important;
+ }
+.title-mainheader{
+  font: Bold 22px/32px Poppins;
+}
+.title-subheader{
+  font:Bold 15px/22px Poppins
+}
+.title-subheader-semibold{
+  font: 600 20px/28px Poppins
+}
+.title-subheader-semibold-b16p{
+  font: 600 16px/24px Poppins
+}
+.title-contentheader-m20p{
+  font: 500 20px/30px Poppins;
+}
+.title-contentheader-m14p{
+  font: 500 14px/24px Poppins;
+}
+.title-contentheader{
+  font:Bold 17px/24px Poppins
+}
+.title-contentsubheader{
+  font:Bold 14px/20px Poppins
+}
+.title-contentsubheader-b14p{
+  font:Bold 13px/18px Poppins
+}
+.title-contentsubheader-b12p{
+  font:Bold 12px/16px Poppins
+}
+.font-innercontent-m13r{
+   font: 500 13px/16px Roboto; /* font-weight: medium - 500,regular-400,bold-700,semi-bold-600 */
+}
+.font-innercontent-r13r{
+  font: 400 13px/16px Roboto;
+}
+.font-innercontent-r10r{
+  font: 400 10px/11px Roboto;
+}
+.font-innercontent-r11r{
+  font: 400 11px/11px Roboto;
+}
+.font-innercontent-r14r{
+  font: 400 14px/17px Roboto;
+}
+.font-innercontent-b11r{
+  font: bold 11px/12px Roboto;
+}
+.font-innercontent-b12r{
+  font: bold 12px/14px Roboto!important;
+}
+.font-innercontent-b10r{
+  font: bold 10px/12px Roboto;
+}
+.font-innercontent-r15r{
+  font: 400 15px/18px Roboto;
+}
+.font-innercontent-r12r{
+  font: 400 12px/14px Roboto;
+}
+.font-innercontent-m12r{
+  font: 500 12px/14px Roboto;
+}
+.font-innercontent-m16r{
+  font: 500 16px/19px Roboto;
+}
+.font-innercontent-m14r{
+  font: 500 16px/19px Roboto;
+}
+.font-innercontent-b18r {
+  font: bold 18px/20px Roboto !important;
+}
+.font-innercontent-b14r {
+  font: bold 14px/18px Roboto !important;
+}
+/* Use the below class for tooltip */
+.font-innercontent-r9r {
+  font: 400 9px/12px Roboto;
+}
+
+.padding-right-10{
+  padding-right: 10px;
+}
+
+.margin-right-10 {
+  margin-right: 10px !important;
+}
+
+.button {
+  height: 45px;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  /* letter-spacing: 0.9px; */
+}
+.btn-width-120{
+  width: 100px !important; 
+}
+.btn-width-100{
+  width: 100px !important; 
+}
+.btn-solid-danger {
+  background: #BA2132 0% 0% no-repeat padding-box !important;
+  border-radius: 5px !important;
+  color: white !important;
+  border: 0px !important;
+}
+.btn-solid-danger:hover {
+  background: #BA2132 0% 0% no-repeat padding-box !important;
+  border-radius: 5px !important;
+  color: white !important;
+  border: 0px !important;
+}
+.btn-outline-primary {
+  border: 1px solid #5D86D0 !important;
+  border-radius: 5px !important;
+  color: #5D86D0 !important;
+  background-color: inherit !important;
+}
+.btn-outline-primary:hover {
+  border: 1px solid #5D86D0 !important;
+  border-radius: 5px !important;
+  background-color: #5D86D0 !important;
+  color: white !important;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.internet-error {
+position: fixed;
+width: 93%;
+top:76px;
+left:7%;
+height: 2.2rem;
+padding:0.3rem,0.2rem,0.2rem;
+background: #484644;
+font-size: 10px;
+z-index: 2;
+}
+ 
+.internet-errorp {
+font-size: 1.2rem;
+text-align: center;
+color: #fff;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

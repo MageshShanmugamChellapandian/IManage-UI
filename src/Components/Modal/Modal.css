@@ -1,0 +1,451 @@
+.modal{
+    padding-left:0px!important;
+}
+.projectmodalheading{
+text-align: left;
+font: Bold 30px/46px Poppins;
+letter-spacing: 0.3px;
+color: #002858;
+text-transform: capitalize;
+opacity: 1;
+padding: 30px 0px 0px 37px;
+}
+.projectnamelabel
+{
+ text-align: left;
+font: Bold 20px/24px Roboto;
+letter-spacing: 0.2px;
+color: #92A2C1;
+text-transform: capitalize;
+opacity: 1;
+padding: 56px 0px 0px 37px;
+}
+.projectmodalinput
+{
+    padding: 0px 0px 0px 37px;
+}
+.closeprojectmodal
+{
+    float: right;
+    display: block;
+    font-size: 22px;
+    cursor:pointer;
+    padding-right: 10px;
+}
+.modalprojectname
+{
+    background-color: transparent;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #92A2C1 1.3px;
+    padding: 3px 1px;
+    text-align: left;
+font: Bold 42px/49px Roboto;
+letter-spacing: 0.42px;
+color: #002858;
+opacity: 1;
+width: 435px;
+}
+.projectmodal
+{
+top: 90px;
+left: 386px;
+width: 498px;
+height: 300px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.projectsavebutton
+{
+    float:right;
+    padding: 10px 22px 0px 0px;
+}
+.btnsaveproject
+{
+    padding:10px;
+    height:35px;
+   
+}
+
+.modalvalidationtext{
+    color:#BA2132;
+    font-size:12px;  
+    padding-left: 40px;
+
+}
+.templatevalidationtext{
+    color:#BA2132;
+    font-size:12px;
+    text-align: left;
+}
+.temp-main{
+    min-width: 100%;
+    margin: 0px!important;
+    min-height: 100%;
+    padding: 0px;
+    border-radius: 0px;
+}
+.temp-project{
+    margin-right: 200px;
+}
+.temp-template{
+    margin-right: 200px;
+}
+.row {
+    padding: 5px 0 5px 0 !important;
+}
+.temp-header{
+    width: 100%;
+    height: 200px;
+    margin-top: 0px;
+    padding: 35px 0 35px 0;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    border-bottom: rgb(212, 212, 212) solid 1px;
+}
+.temp-closeicon{
+    background: transparent url('../../images/crossimage-medium.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-right: 50px;
+}
+.temp-name{
+    text-align: left;
+    letter-spacing: 0.3px;
+    color: #002858;
+    text-transform: capitalize;
+    opacity: 1;
+    margin-left: 95px;
+}
+.temp-details{
+    margin: 40px 0px 0px 95px;
+    display: flex;
+}
+.temp-projecttext,.temp-censusfiletext{
+    text-align: left;
+    letter-spacing: 0.14px;
+    color: #92A2C1;
+    opacity: 1;
+}
+.temp-projectname,.temp-censusfilename{
+    text-align: left;
+    letter-spacing: 0.2px;
+    color: #002858;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.temp-fieldstomatchtext
+{
+text-align: left;
+letter-spacing: 0.24px;
+color: #002858;
+text-transform: capitalize;
+opacity: 1;
+}
+.temp-fieldstomatchcount{
+border: 1px solid #92A2C1;
+border-radius: 6px;
+margin-left: 10px;
+padding-left: 5px;
+padding-right: 5px;
+}
+.temp-body{
+    background-color: #F8F9FA;
+    top: 175px;
+    position: relative;
+    margin: 0px;
+}
+.temp-body-margin{
+    margin-left: 95px;
+    margin-right: 95px;
+    padding-top: 50px;
+}
+.temp-fieldtext{
+    padding-top: 10px;
+    text-align: left;
+    letter-spacing: 0.2px;
+    color: #92A2C1;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.temp-dropdownstyle{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D6E0ED;
+    opacity: 1;
+    width: 250px;
+    height: 45px;
+    text-align: left;
+    letter-spacing: 0.16px;
+    color: #002858;
+    opacity: 1;
+    padding-left: 10px;
+}
+.temp-dropdowndiv{
+    text-align: left;
+    /* margin-top: 5px; */
+}
+.temp-fieldcount{
+    text-align: center;
+    margin-top: 10px;
+}
+.temp-rule-dd{
+    display:block;
+}
+.btnsavetemplate{
+    float: right;
+    position: relative;
+    margin: 0px 20px 0px 0px;
+    width: 70px;
+    height: 35px;
+    background: #BA2132 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    font: 400 14px/18px Roboto;
+    letter-spacing: 0.9px;
+    color: #FFFFFF;
+}
+.btnsaveastemplate {
+    border: 1px solid #5D86D0;
+    border-radius: 5px;
+    color: #5D86D0;
+    width: 70px;
+    height: 35px;
+    font: 400 14px/18px Roboto;
+    letter-spacing: 0.9px;
+  }
+.btnvalidatetemplate{
+    margin: 10px 10px 30px 10px;
+    position: relative;
+}
+.temp-hrblack{
+    background-color: black;
+}
+.hr-half{
+    width: 50%;
+    left: 0;
+    position: relative;
+    margin-left: 0;
+}
+.temp-validationtext{
+    padding-top: 15px;
+}
+.savetemplatewrapper{
+    height: 450px;
+}
+.savetemplateform,.savetemplate{
+    height:100%
+}
+.savetemplate{
+    margin-left:45px;
+    margin-right:45px;
+}
+.savemodalclose{
+    background: transparent url('../../images/closeicon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 27px;
+    height: 33px;
+    float: right;
+    margin-top: 15px;
+}
+.selecttemplatetext{
+    text-align: left;
+    font: Bold 30px/46px Poppins;
+    letter-spacing: 0.3px;
+    color: #002858;
+    text-transform: capitalize;
+    opacity: 1;
+    padding: 30px 0px 0px 0px;
+    display: inline-block;
+}
+.selecttemplatesubtext
+{
+text-align: left;
+font: Regular 18px/18px Roboto;
+letter-spacing: 0.18px;
+color: #92A2C1;
+opacity: 1;
+margin-left: 0px;
+
+}
+.templatenametext{
+text-align: left;
+font: Regular 18px/21px Roboto;
+letter-spacing: 0.18px;
+color: #92A2C1;
+text-transform: capitalize;
+opacity: 1;
+margin-top: 30px;
+}
+.templatedescriptionarea{
+    margin-bottom: 10px;
+    width: 435px !important;
+    text-align: left;
+    letter-spacing: 0.18px;
+    text-transform: capitalize;
+    opacity: 1;
+    border-color: #92A2C1;
+    resize: none !important;
+    outline: none !important;
+}
+.templatedescriptionlabel{
+    text-align: left;
+    font: Regular 18px/21px Roboto;
+    letter-spacing: 0.18px;
+    color: #92A2C1;
+    text-transform: capitalize;
+    opacity: 1;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+.templatedescriptiontext{
+    padding-right: 250px;
+}
+.modaltemplatename
+{
+    background-color: transparent;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #92A2C1 1px;
+    padding: 3px 10px;
+    text-align: left;
+    font: Bold 42px/49px Roboto;
+    letter-spacing: 0.42px;
+    color: #002858;
+    opacity: 1;
+    width: 435px;
+}
+.savetemplatemodal{
+    width: 550px!important;
+}
+.templatepoupupsavebutton{
+    margin-top:20px;
+}
+
+.required
+{
+    border: 1px solid #BA2132;
+    opacity: 1;
+    width: 250px;
+    height: 45px;
+    text-align: left;
+}
+
+ .deletelabel{
+    text-align: left;
+    font: 16px/19px Poppins;
+    letter-spacing: 0.3px;
+    color: #002858;
+    opacity: 1;
+    padding: 30px 0px 0px 37px;
+ }   
+.delete-navbtn{
+    margin-top: 40px;
+}
+.userprofilecard
+{
+    position: fixed;
+    border: solid #E7EBF7 1px;
+    top: 80px;
+    right:30px;
+    padding: 10px 10px 0px 17px;
+    font: 10px/16px Poppins;
+    width: 320px; 
+    height: 180px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.userprofile-logout-btn{
+
+    width: 50px;
+    height: 32px;
+    border-radius: 5px;
+    background: #BA2132 0% 0% no-repeat padding-box;
+    border: none;
+    color: #FFFFFF;
+    opacity: 1;
+    /* padding: 10px 22px 0px 0px; */
+}
+.userprofile-email
+{
+    display:inline-block;
+    width: 250px; 
+    height: 80px; 
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-bottom: 20px;
+}
+.userprofile-avatar
+{
+    padding-left: 20px;
+}
+.userprofile-namecard{
+    display:inline-block;
+    background-image:transparent url('../../images//useravtar.png') no-repeat;
+    font-size:1.7em;
+    width:30px;
+    height:30px;
+    line-height:6em;
+    text-align:center;
+    border-radius:50%;
+    vertical-align:middle;
+    margin-right:1em;
+    background:#C2D8FA;
+    color:#4975C1;
+  }
+  [data-profilecard]:before {
+    content:attr(data-profilecard);
+    font: 47px/72px Poppins;
+  }
+  .userprofile-content{
+    width: 180px;
+    text-align: left;
+    letter-spacing: 0.24px;
+    color: #002858;
+    opacity: 1;
+    text-align: left;
+    padding-top: 5px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+  /* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 30%;
+    height: 80px; /* Should be removed. Only for demonstration */
+  }
+
+  .useravtar {
+    /* float: right; */
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image:  url('../../images/useravtar.png');
+    background-size: cover;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  .closeuserdraw
+{
+    float: right;
+    display: block;
+    cursor:pointer;
+}
+.userprofile-myaccount{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.temp-required-asterisk{
+    vertical-align: super;
+    color: red;
+    margin-left: 3px;
+}

@@ -1,0 +1,27 @@
+.overview_stats_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .overview_stats {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .overview_stats_icon {
+    font-size: 2rem;
+    color: rgb(235, 163, 30);
+  }
+  
+  .overview_stats_data div:nth-child(1) {
+    color: rgb(85, 85, 85);
+    font-size: 0.9rem;
+    font-weight: 400;
+  }
+  
+  .overview_stats_data div:nth-child(2) {
+    color: rgb(235, 163, 30);
+    font-size: 1.6rem;
+  }
+  

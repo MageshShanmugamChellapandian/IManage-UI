@@ -1,0 +1,244 @@
+.incomeStatementBreakdownTemplate {
+  margin-right: 0px;
+}
+
+.incomeStatementBreakdownCard {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+.incomeStatementBreakdown-content {
+  overflow: hidden;
+}
+.incomeStatementBreakdown-header {
+  position: relative;
+  display: inline-block;
+  left: 0px;
+  width: 65%;
+  height: 250px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid #e7ebf7 1px;
+  padding-top: 5px;
+}
+.incomeStatementBreakdown-heading {
+  text-align: justify;
+  color: #002858;
+  text-transform: capitalize;
+  opacity: 1;
+  display: inline-block;
+  margin: 6px 0px 0px 25px;
+}
+.incomeStatementBreakdown-providingServices-bar {
+  height: 40px;
+  width: 20px;
+  margin-bottom: 2px;
+  background-color: darksalmon;
+}
+
+.incomeStatementBreakdown-providingServices {
+    height: 30px;
+    width: 20px;
+    margin-bottom: 15px;
+    background-color: darksalmon;
+  }
+  .incomeStatementBreakdown-revenue-bar
+  {
+    height: 170px;
+    width: 20px;
+    margin-bottom: 15px;
+    border: 1px solid;
+    background-color: maroon;
+  }
+  .incomeStatementBreakdown-proceeds-bar
+  {
+    height: 170px;
+    width: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: 1px solid;
+    background-color: darkcyan;
+  }
+  .incomeStatementBreakdown-expenses-bar
+  {
+    height: 140px;
+    width: 20px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    border: 1px solid;
+    background-color: darkcyan;
+  }
+  .incomeStatementBreakdown-rentingoutpremises-bar
+  {
+    height: 40px;
+    width: 20px;
+    margin-bottom: 2px;
+    background-color: gray;
+  }
+  .incomeStatementBreakdown-salesofproducts-bar
+  {
+    height: 90px;
+    width: 20px;
+    margin-bottom: 5px;
+    background-color: darkgray;
+  }
+  .incomeStatementBreakdown-loans-bar
+  {
+    height: 40px;
+    width: 20px;
+    margin-bottom: 15px;
+    background-color: aqua;
+  }
+  .incomeStatementBreakdown-providingServices-wave
+  {
+    font-size: xx-small;
+    display: flex;
+    margin-left: 20px;
+  }
+  .incomeStatementBreakdown-rentingoutpremises-wave
+  {
+    font-size: xx-small;
+    display: flex;
+    margin-left: 20px;
+  }
+  .incomeStatementBreakdown-salesofproducts-wave
+  {
+    font-size: xx-small;
+    display: flex;
+    margin-left: 20px;
+  }
+  .incomeStatementBreakdown-loans-wave
+  {
+    font-size: xx-small;
+    display: flex;
+    margin-left: 20px;
+  }
+  .incomeStatementBreakdown-revenue-wave
+  {
+    font-size: xx-small;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+  .incomeStatementBreakdown-proceeds-wave
+  {
+    font-size: xx-small;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 75px;
+  }
+  .incomeStatementBreakdown-expenses-wave
+  {
+    font-size: xx-small;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 85px;
+  }
+  .incomeStatementBreakdown-managerial-bar
+  {
+    height: 40px;
+    width: 20px;
+    margin-bottom: 10px;
+    background-color: cornflowerblue;
+  }
+  .incomeStatementBreakdown-managerial-wave
+  {
+    font-size: xx-small;
+    display: flex;
+    margin-left: 20px;
+  }
+  .incomeStatementBreakdown-commercial-bar
+  {
+    height: 40px;
+    width: 20px;
+    margin-bottom: 10px;
+    background-color: darksalmon;
+  }
+  .incomeStatementBreakdown-commercial-wave
+  {
+    font-size: xx-small;
+    display: flex;
+    margin-left: 20px;
+  }
+  .incomeStatementBreakdown-production-bar
+  {
+    height: 90px;
+    width: 20px;
+    margin-bottom: 10px;
+    background-color: coral;
+  }
+  .incomeStatementBreakdown-production-wave
+  {
+    font-size: xx-small;
+    display: flex;
+    margin-left: 20px;
+  }
+  .incomeStatementBreakdown-personaltraining-bar
+  {
+    height: 10px;
+    width: 20px;
+    margin-bottom: 2px;
+    margin-left: 70px;
+    background-color: cadetblue;
+  }
+  .incomeStatementBreakdown-officerental-bar
+  {
+    height: 25px;
+    width: 20px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    background-color: cadetblue;
+  }
+  .incomeStatementBreakdown-travelallowance-bar
+  {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 2px;
+    margin-left: 70px;
+    background-color: cadetblue;
+  }
+  .incomeStatementBreakdown-advertising-bar
+  {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 2px;
+    margin-left: 70px;
+    background-color: cadetblue;
+  }
+  .incomeStatementBreakdown-wages-bar
+  {
+    height: 50px;
+    width: 20px;
+    margin-bottom: 2px;
+    margin-left: 70px;
+    background-color: cadetblue;
+  }
+  .incomeStatementBreakdown-purchasesofrawmaterials-bar
+  {
+    height: 60px;
+    width: 20px;
+    margin-bottom: 2px;
+    margin-left: 70px;
+    background-color: cadetblue;
+  }
+  .incomeStatementBreakdown-paymentofpercentageonloans-bar
+  {
+    height: 15px;
+    width: 20px;
+    margin-bottom: 2px;
+    margin-left: 70px;
+    background-color: cadetblue;
+  }
+  .incomeStatementBreakdown-personaltraining-wave
+  {
+    font-size: xx-small;
+    display: flex;
+    margin-left: 20px;
+  }

@@ -1,0 +1,47 @@
+.activemenu
+{
+    background-color: #F2F4F8;
+    font-weight: bold;
+    border-left-color: red;
+    border-left-color:#BA2132;
+    border-left-style: solid;
+    border-left-width: 3px;
+    color: #002858 !important;
+}
+.menutext
+{
+    text-align: center;
+    padding-top: 16px;
+    height: 80px;
+    font: Regular 14px/16px Roboto;
+    color: #92A2C1;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
+.projectmenutext {
+    height: 60px;
+    width: 100%;
+    }
+.project-menu-item-text 
+{
+   display:none;
+}
+    
+.img-responsive 
+{
+    margin-left: -10px;
+    left: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+}
+
+.menu-item-text 
+{
+    margin-top: 25px;
+    text-decoration: none !important;
+    position: relative;
+}
+.menuitems{
+    width:100%
+    }
